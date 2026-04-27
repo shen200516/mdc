@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Marie Antoinette</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+<style>
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: #f5f0ec;
+}
+
+nav {
+  background: black;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+nav a {
+  color: #f7c6d9;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* LEFT SIDE (TEXT) */
+.left {
+  width: 50%;
+  padding: 60px;
+}
+
+.left h1 {
+  font-size: 80px;
+  margin: 0;
+}
+
+.left p {
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.right {
+  width: 50%;
+  background: url('back.jpeg') center/cover no-repeat;
+}
+
+.logo-section {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.logo-section img {
+  width: 50%;
+}
+
+.book-section {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.book-section img {
+  width: 70%;
+  max-width: 900px;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+	.divider {
+  width: 80px;
+  height: 2px;
+  background-color: #e5c7d1;
+  margin: 30px 0;
+}
+
+.extra-info {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #777;
+}
+
+.extra-info span::after {
+  content: "•";
+  margin-left: 10px;
+}
+
+.extra-info span:last-child::after {
+  content: "";
+}
+.video-container {
+  margin-top: 30px;
+}
+
+.video-container video {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+}
+
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#">HOME</a>
+  <a href="#">SOUNDTRACK</a>
+  <a href="#">CAST</a>
+  <a href="#">SHOWTIMES</a>
+  <a href="#">TICKETS</a>
+</nav>
+
+<div class="container">
+
+  <div class="left">
+	  <div class="divider"></div>
+<div class="video-container">
+  <video controls autoplay muted loop>
+    <source src="marie.mp4" type="video/mp4">
+  
+  </video>
+</div>
+<div class="extra-info">
+  <span>Drama</span>
+  <span>2006</span>
+  <span>2h 3m</span>
+  <span>Biography</span>
+</div>
+    <h1>Marie Antoinette</h1>
+    <p>
+      A visually rich and modern retelling of France’s most iconic queen. 
+      Directed by Sofia Coppola, the film blends historical storytelling 
+      with contemporary music and a soft pastel aesthetic.
+    </p>
+
+    <p>
+      Release Date: 2006 <br>
+      Director: Sofia Coppola
+    </p>
+  </div>
+
+  <div class="right"></div>
+
+</div>
+
+<section class="logo-section">
+  <img src="2logo.jpg" alt="Logo">
+</section>
+
+<section class="book-section">
+  <img src="book2.jpg copy.jpg" alt="Book Image">
+</section>
+
+<footer>
+  <p>&copy; 2026, Joslyn Brenes.This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+</footer>
+
+</body>
+</html>
